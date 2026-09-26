@@ -1,0 +1,148 @@
+
+.dashwel{
+  position: absolute;
+  top: 150px;
+  left: 550px;
+  font-size: 70px;
+}
+/* .main{
+  background-color: rgb(45, 45, 88);
+} */
+.dash {
+  width: 230px;
+  height: 100vh;
+  background: #151725;
+  position: fixed;
+  left: 0;
+  top: 0;
+  color: white;
+  padding: 20px 10px;
+}
+
+.dash-button {
+  display: block;
+  padding: 12px 15px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 190px;
+
+  background: #3a4fad;
+  color: #d5d6df;
+
+  text-decoration: none;
+  border-radius: 7px;
+
+  font-size: 14px;
+  border: 1px solid #303342;
+
+  transition: 0.3s;
+}
+
+.dash-button:hover {
+  background: #667eea;
+  color: white;
+}
+.user-container {
+  padding: 30px;
+}
+
+.user-title {
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+/* User boxes */
+.user-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* Each user */
+.user-box {
+  background: rgb(28, 27, 115);
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Circle image */
+.user-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.user-name {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: antiquewhite;
+}
+
+.user-data {
+  font-size: 14px;
+  color: #faf5f5;
+  margin: 8px 0;
+  word-break: break-word;
+}
+.student-list-container {
+  padding: 30px;
+}
+
+.student-list-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.student-table th {
+  background: #242735;
+  color: white;
+}
+
+.student-table tr:hover {
+  background: #f5f5f5;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 7px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.edit-btn {
+  background: #667eea;
+  color: white;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #4f46e5;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
